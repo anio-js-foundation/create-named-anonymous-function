@@ -1,9 +1,9 @@
-# @anio-js-core-foundation/create-named-anonymous-function
+# @anio-js-foundation/create-named-anonymous-function
 
 Creates a named anonymous function.
 
 ```js
-import createNamedAnonymousFunction from "@anio-js-core-foundation/create-named-anonymous-function"
+import createNamedAnonymousFunction from "@anio-js-foundation/create-named-anonymous-function"
 
 const fn = createNamedAnonymousFunction("my function name", async () => {
 	console.log("you called fn()")

@@ -1,4 +1,4 @@
-import createNamedAnonymousFunction from "./index.mjs"
+import createNamedAnonymousFunction from "./src/index.mjs"
 
 const fn = createNamedAnonymousFunction("my function name", async () => {
 	console.log("you called fn()")
